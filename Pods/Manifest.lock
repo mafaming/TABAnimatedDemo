@@ -1,0 +1,26 @@
+PODS:
+  - TABAnimated (2.2.5):
+    - TABAnimated/Core (= 2.2.5)
+    - TABAnimated/Reveal (= 2.2.5)
+  - TABAnimated/Core (2.2.5)
+  - TABAnimated/Reveal (2.2.5):
+    - TABAnimated/Core
+
+DEPENDENCIES:
+  - TABAnimated (from `https://github.com/tigerAndBull/TABAnimated.git`)
+
+EXTERNAL SOURCES:
+  TABAnimated:
+    :git: https://github.com/tigerAndBull/TABAnimated.git
+
+CHECKOUT OPTIONS:
+  TABAnimated:
+    :commit: f2993d8d8f0c88615886b1fbb656b84f123c1545
+    :git: https://github.com/tigerAndBull/TABAnimated.git
+
+SPEC CHECKSUMS:
+  TABAnimated: 578e519350a12ac08ec2ee2c0a2d2120ac13e137
+
+PODFILE CHECKSUM: d48e939db44d8018463b3b4db4a3a5ffa0901183
+
+COCOAPODS: 1.8.0.beta.2

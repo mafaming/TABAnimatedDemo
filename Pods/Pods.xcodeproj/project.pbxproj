@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F057A58545963314B01A4FED0A008F /* UIView+TABControlAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A5366FD8665FD12F0A085FE204B75B /* UIView+TABControlAnimation.m */; };
+		04C9F6019E2EC11E2974C12D138AD4BF /* TABSentryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473FFA45F415ACABA3FB4B96BFCE7CF7 /* TABSentryView.m */; };
+		05632D897CD192403744902E3876151C /* TABComponentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FE4AF60FE8094A2E3D67B60E71501 /* TABComponentLayer.m */; };
+		074FD12DC3DB15AD84B8FCE5BFC3C981 /* TABPreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F873BFAB6B29B05F81AC400412A5B97E /* TABPreviewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E02D9E9142733E89AF5324F8869FE7E /* TABAnimatedCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DBA92CE2351B2563AB8E14D890DD8A /* TABAnimatedCacheManager.m */; };
+		0E82BCDF14819421D4867D6F0FFBD3D1 /* TABManagerMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 961E0F929768394B360FF72981CADAF6 /* TABManagerMethod.m */; };
+		1449705931C6B9A9F165D81A8A0F0F10 /* TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D8DB9D1C321B05ED71CF374FF5314 /* TABAnimated.m */; };
+		190D6D9E8B0356EF07F676450F0847DA /* TABRevealKeepDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 932FECE101BCA73C82557A9BA3258594 /* TABRevealKeepDataUtil.m */; };
+		1981A4DE6B045939CB4D8328C538319C /* TABCollectionAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929FCC2EA47138CD8CADD9E8EF73987 /* TABCollectionAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F5DF29821DD706E084981EA603B24A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		20FAB218AD2D2FE087F42E7AD8D235FF /* TableDeDaSelfModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2E070D362C7BD8839B9F10576708B1 /* TableDeDaSelfModel.m */; };
+		223004CD0D7DB5B3F456BAB763F8AC6E /* TABAnimatedCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BD141B3F837D2085F4F37C088C30DF9A /* TABAnimatedCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26822FA1A39DA48324B1802A4F04DDBC /* TABAnimatedDocumentMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBFCB4FE333DF13E82DF068C1418375 /* TABAnimatedDocumentMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C556167328C5E3F340437B751A5D458 /* TABTableAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5688C9665886ED5FD3CEE818AAFC61 /* TABTableAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FAF72080DB13A35E749D978C3119A0A /* TABRevealHomeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 90211210300880976F64338EE5A7FD16 /* TABRevealHomeWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE080BA8B19FA55A12A72F42DB65508 /* tab_reveal_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 453C061B0703C7F97E42A4AA63825DD9 /* tab_reveal_close.png */; };
+		304655A6355ECE689936B9C12BCFD235 /* TABRevealChainManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 02BD5716CE844449B10AF1711EAE38A0 /* TABRevealChainManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B0B324271EBA1CEA58CE34B4167FC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4DA02D66E204ED3E8072EDF276047284 /* TabAnimatedLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5C855863694A51326F90743456CB9F /* TabAnimatedLogo.png */; };
+		4FCD94B91A23E34B8325587AD3E912EF /* TABAnimatedDocumentMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = BF112AF0ACEA336FE3DE34BCE37512AD /* TABAnimatedDocumentMethod.m */; };
+		5017739F252B37B3EE0D1F088AD930B7 /* TABAnimationMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0DBA8D3E578CC9DB8F1F01C754C332 /* TABAnimationMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		526282B7F7A13E1439A4077DB69AA49F /* TABRevealHomeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1780A2B9197F674BB92B2CA2588787EA /* TABRevealHomeWindow.m */; };
+		541162A27FEEB3FA9D6925223CA9A61F /* UIView+TABAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 8784E868A9BBD6B6AA80A888858F9203 /* UIView+TABAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B56AD0C85587BC2323E063562DE5719 /* TABViewAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = F30427551B93F1D639659704E2E60F1C /* TABViewAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C3872D41D542938E7471A93D89709F2 /* Pods-testDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D07B20006F9498B92DFA985A304EF8 /* Pods-testDemo-dummy.m */; };
+		5C78F066D9A99D024521708BED22CB5E /* TABRevealChainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F87200E3B674E3150212F2D1BDB401 /* TABRevealChainManager.m */; };
+		5EB877634ABF4C927012271FDEDE3EAC /* TABAnimated-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F336670836537E736C6DBA851D81E41 /* TABAnimated-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		687F5F2349C57B56F1CDE75E3C24771F /* TABViewAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 950602DDD64FAA80716D0BBF17D6510D /* TABViewAnimated.m */; };
+		6978C708A2C059744FBD9BDE74A73AFB /* TABAnimationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F26DC2298166B6594F94CCFD90FECB7F /* TABAnimationMethod.m */; };
+		70F39804691B47AD717B8FBA24E9A780 /* TABAnimatedBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 95903B12C1942D23E581E363DAF4331F /* TABAnimatedBall.m */; };
+		715ECDA8017924648280E0BACA16E1B0 /* TABPopBgView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D0205B2FDE35FC923AC8F703170383 /* TABPopBgView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71E8A57D96C808994AC6919206783596 /* TABRevealTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2649FFB161CAAE53969AD5C0CE1B0736 /* TABRevealTableViewCell.m */; };
+		7252B00896649DEBBC2E8DAEFA58AB1C /* TABBaseComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF5A9CA49D53AE4F925E8FC87C75F15 /* TABBaseComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		741D4EA9D3B9D5B386D5AF49AD58F636 /* TABAnimated-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C6BBFE9FD59264487DA38275013B9A /* TABAnimated-dummy.m */; };
+		7423FE986029F483FFE6794A63281824 /* TABRevealTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E47B723DA66D2D91A9821802ED0CEED1 /* TABRevealTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77778C0A9731D6F27DB43354449ADC90 /* TABComponentLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C158EBA7DA907116069712C46758734C /* TABComponentLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A87527786AC5FBE37F183564FA3C980 /* TABRevealModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B64DBACBEEC25603821EED75372ACC /* TABRevealModel.m */; };
+		7C832A018AAE143AB59220164F960981 /* TableDeDaSelfModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C44A8035E977D38C255440DD1499B94D /* TableDeDaSelfModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E102FC6D756FB6AE5C35535D773D922 /* TABRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417214F13AF9F03736667D6190DF1018 /* TABRevealViewController.m */; };
+		812FFA22A3ED0E9B3D6ED2C3064E82BA /* TABRevealAddChainView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29687D4D97C7C8CFC0F7CF4269BCE9B7 /* TABRevealAddChainView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81C587A778BA5131E03551ABFCFEEF01 /* TABRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF601C0CBDE0F68373792F4A76BE7E5 /* TABRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82AB5A4F53DD7E2FC36F0EABF53EEB09 /* TABRevealKeepDataUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E8ADDC9185D7A4DC6D2092F918C1ED14 /* TABRevealKeepDataUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C33B6B1400F76DA2C25926A9F31DB9 /* TABSentryView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB823DCF9E049268F3B5AC2B553BECE2 /* TABSentryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		865335C4201BFBD0A880D23AC795F8CB /* NSArray+TABAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = A0EA4B466696CE9EC0515B370C60559D /* NSArray+TABAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87AB98F3DF8FA6C39E620C11AC9E1521 /* TABRevealFlowBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B61992649B34D21570FEEC437BDFA8 /* TABRevealFlowBall.m */; };
+		88ED44B9C11BCA79C4AA8C9772A12971 /* TABRevealAddChainView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE340738FC95854348BF38F015B284 /* TABRevealAddChainView.m */; };
+		8AF6216BFDEB6F6A1F902569A70A6ED6 /* TABCollectionAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1F5012FE80D65A78B727326B66F102 /* TABCollectionAnimated.m */; };
+		8FB8BB8398E57F25FFD9E0D5921E84E4 /* TABPopBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C662427AA5DC3A4E1098BCE39ADC0A /* TABPopBgView.m */; };
+		93A8BF4F467E377C31F956D5431115B0 /* tab_reveal_close_bigger.png in Resources */ = {isa = PBXBuildFile; fileRef = C43ADFEC6593F9D5A1AC9BEEB3DC0F9C /* tab_reveal_close_bigger.png */; };
+		9A21198DFED15401B30EB8C5B0A50014 /* TABComponentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA5C94C8838BC71F954EC23DAE8FAE5 /* TABComponentManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C08506F541B87744F00A568770B1185 /* TABButtonProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E95B489E9E9C0DBCDBB513C717C41C8F /* TABButtonProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D7A39901ED60A5716EA480EA50CCF1E /* UIView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBAF97BEB94E43A056A703437A78142 /* UIView+TABAnimated.m */; };
+		A2B2F033975C97879776558590B11AD2 /* NSArray+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E8D455BF84FCBD24F0901EBD9E53D7 /* NSArray+TABAnimated.m */; };
+		B391BC90774B5E930E5522E05D6CB9A5 /* TABBaseComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCDD85B32C642442C05572778807FA2 /* TABBaseComponent.m */; };
+		B4A6396AE8010962774B40FF9DF1E595 /* TABPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5098C836406DD80B96156996A5B4E1 /* TABPopViewController.m */; };
+		B6F9BB0C50DE92FB59BA05C618200A59 /* TABPopViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC1293CDD14E0F4F1130A7B5158BE20 /* TABPopViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3B28538F4F599D6E338269E5EBB7F62 /* TABRevealChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D372553D6365295C2A88A90C1D5EA2A /* TABRevealChainModel.m */; };
+		C9D3947F8CA68A3D55B72B5DFF9768E3 /* Pods-testDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F75861861B0042DD46BA0606D83D7DF /* Pods-testDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2EA84B8B188862E91A2397467275629 /* TABAnimatedCacheModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C3FD09151DAC9E894AB7F717887854 /* TABAnimatedCacheModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0839620D0E7642FB3B9EA28190B8BAA /* TABTableAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6B164A49AE7064B2D03F4ABD0A1C6 /* TABTableAnimated.m */; };
+		EB5B8E4401F483B49E04B4320DCEFF65 /* TABAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F04116437871E7401102B3715052F6C /* TABAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC3686960D26FCFB33A9A1B306394AC /* TABComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E94D9B48890AC26DCFCEBEC378DEF41 /* TABComponentManager.m */; };
+		EFD7C21DABEA1A1AD2BB0B1C8086C547 /* TABRevealFlowBall.h in Headers */ = {isa = PBXBuildFile; fileRef = 703952FBF27DE666DF5DFB819EBFCF53 /* TABRevealFlowBall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4046E07C71B28C38894DF799C51433A /* TABPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792DADDC4EF5156F788EBE1392BCCB65 /* TABPreviewViewController.m */; };
+		F4C80324E120CBAC981B5EB0CC0D6CCF /* TABRevealChainModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F8A18A13E86CC9050A867A6E688920 /* TABRevealChainModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9EB9CC5620D451FA05B7E8B2BA57BD9 /* TABAnimatedCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317BF685B2DD00DD3DD6B93FFE485AB /* TABAnimatedCacheModel.m */; };
+		FAF9E03E907C8B82CD071E6B00BACD82 /* UIView+TABControlAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE0A2ACCDC335F521AB657FDC066DC4 /* UIView+TABControlAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7535A641D0EDBB557FBACF5B4772F6 /* TABManagerMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBC67357DC1BB1C402C3E676761D360 /* TABManagerMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF8FE7E41038694F3C21C06433A8199 /* TABRevealModel.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3E2039CA248C3C1FF20BF8AA811483 /* TABRevealModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF7F858875504FD8C91CC4C530E9CB1B /* TABAnimatedBall.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8F0E787447A8742600E12B1749BDF0 /* TABAnimatedBall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C1CD8BC38A45800AF2F1BDA7544B973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B226767C94EFDDF6183068991A028098;
+			remoteInfo = TABAnimated;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BD5716CE844449B10AF1711EAE38A0 /* TABRevealChainManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABRevealChainManager.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Model/TABRevealChainManager.h; sourceTree = "<group>"; };
+		05C662427AA5DC3A4E1098BCE39ADC0A /* TABPopBgView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABPopBgView.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/AlertView/TABPopBgView.m; sourceTree = "<group>"; };
+		1317BF685B2DD00DD3DD6B93FFE485AB /* TABAnimatedCacheModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABAnimatedCacheModel.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Cache/TABAnimatedCacheModel.m; sourceTree = "<group>"; };
+		1780A2B9197F674BB92B2CA2588787EA /* TABRevealHomeWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABRevealHomeWindow.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/FlowBall/TABRevealHomeWindow.m; sourceTree = "<group>"; };
+		1929FCC2EA47138CD8CADD9E8EF73987 /* TABCollectionAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABCollectionAnimated.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Model/TABCollectionAnimated.h; sourceTree = "<group>"; };
+		1D5D66B1D7573083A392FD0B354846A2 /* TABAnimated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TABAnimated.framework; path = TABAnimated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E94D9B48890AC26DCFCEBEC378DEF41 /* TABComponentManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABComponentManager.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TABComponentManager.m; sourceTree = "<group>"; };
+		216740B04148C2CF92C49DA964971020 /* TABAnimated-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TABAnimated-prefix.pch"; sourceTree = "<group>"; };
+		239F962A5A5AB0C5C9481546762E0C75 /* Pods-testDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testDemo-frameworks.sh"; sourceTree = "<group>"; };
+		2649FFB161CAAE53969AD5C0CE1B0736 /* TABRevealTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABRevealTableViewCell.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/View/TABRevealTableViewCell.m; sourceTree = "<group>"; };
+		29687D4D97C7C8CFC0F7CF4269BCE9B7 /* TABRevealAddChainView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABRevealAddChainView.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/View/TABRevealAddChainView.h; sourceTree = "<group>"; };
+		2F75861861B0042DD46BA0606D83D7DF /* Pods-testDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testDemo-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3DF5A9CA49D53AE4F925E8FC87C75F15 /* TABBaseComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABBaseComponent.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TABBaseComponent.h; sourceTree = "<group>"; };
+		417214F13AF9F03736667D6190DF1018 /* TABRevealViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABRevealViewController.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Controller/TABRevealViewController.m; sourceTree = "<group>"; };
+		453C061B0703C7F97E42A4AA63825DD9 /* tab_reveal_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = tab_reveal_close.png; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Source/tab_reveal_close.png; sourceTree = "<group>"; };
+		473D3F5B9D251C2D3EFF788F3E83EEED /* Pods-testDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testDemo-Info.plist"; sourceTree = "<group>"; };
+		473FFA45F415ACABA3FB4B96BFCE7CF7 /* TABSentryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABSentryView.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TABSentryView.m; sourceTree = "<group>"; };
+		48F87200E3B674E3150212F2D1BDB401 /* TABRevealChainManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABRevealChainManager.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Model/TABRevealChainManager.m; sourceTree = "<group>"; };
+		4BC1293CDD14E0F4F1130A7B5158BE20 /* TABPopViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABPopViewController.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/AlertView/TABPopViewController.h; sourceTree = "<group>"; };
+		4F0DBA8D3E578CC9DB8F1F01C754C332 /* TABAnimationMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABAnimationMethod.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Animation/TABAnimationMethod.h; sourceTree = "<group>"; };
+		4F336670836537E736C6DBA851D81E41 /* TABAnimated-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TABAnimated-umbrella.h"; sourceTree = "<group>"; };
+		54A5366FD8665FD12F0A085FE204B75B /* UIView+TABControlAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TABControlAnimation.m"; path = "AnimatedDemo/AnimatedDemo/TABAnimated/Core/Category/UIView+TABControlAnimation.m"; sourceTree = "<group>"; };
+		5D372553D6365295C2A88A90C1D5EA2A /* TABRevealChainModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABRevealChainModel.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Model/TABRevealChainModel.m; sourceTree = "<group>"; };
+		65F8A18A13E86CC9050A867A6E688920 /* TABRevealChainModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABRevealChainModel.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Model/TABRevealChainModel.h; sourceTree = "<group>"; };
+		67B61992649B34D21570FEEC437BDFA8 /* TABRevealFlowBall.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABRevealFlowBall.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/FlowBall/TABRevealFlowBall.m; sourceTree = "<group>"; };
+		69DBA92CE2351B2563AB8E14D890DD8A /* TABAnimatedCacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABAnimatedCacheManager.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Cache/TABAnimatedCacheManager.m; sourceTree = "<group>"; };
+		6B6B708DEA23FFAF5DC6963D1CEDA700 /* Pods-testDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-testDemo.modulemap"; sourceTree = "<group>"; };
+		6DCDD85B32C642442C05572778807FA2 /* TABBaseComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABBaseComponent.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TABBaseComponent.m; sourceTree = "<group>"; };
+		6EB89465E76DF0F90015BFD96E958D19 /* TABAnimated.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TABAnimated.modulemap; sourceTree = "<group>"; };
+		6F04116437871E7401102B3715052F6C /* TABAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABAnimated.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/TABAnimated.h; sourceTree = "<group>"; };
+		703952FBF27DE666DF5DFB819EBFCF53 /* TABRevealFlowBall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABRevealFlowBall.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/FlowBall/TABRevealFlowBall.h; sourceTree = "<group>"; };
+		721EB5F64055CB20D72B553E1162DDD7 /* Pods-testDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		792DADDC4EF5156F788EBE1392BCCB65 /* TABPreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABPreviewViewController.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Controller/TABPreviewViewController.m; sourceTree = "<group>"; };
+		7A8D8DB9D1C321B05ED71CF374FF5314 /* TABAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABAnimated.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/TABAnimated.m; sourceTree = "<group>"; };
+		7AA47D9BDD7740BFFE7ED7BAD0306BDA /* TABAnimated-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TABAnimated-Info.plist"; sourceTree = "<group>"; };
+		7EE0A2ACCDC335F521AB657FDC066DC4 /* UIView+TABControlAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TABControlAnimation.h"; path = "AnimatedDemo/AnimatedDemo/TABAnimated/Core/Category/UIView+TABControlAnimation.h"; sourceTree = "<group>"; };
+		8784E868A9BBD6B6AA80A888858F9203 /* UIView+TABAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TABAnimated.h"; path = "AnimatedDemo/AnimatedDemo/TABAnimated/Core/Category/UIView+TABAnimated.h"; sourceTree = "<group>"; };
+		89D0205B2FDE35FC923AC8F703170383 /* TABPopBgView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABPopBgView.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/AlertView/TABPopBgView.h; sourceTree = "<group>"; };
+		8A8FE4AF60FE8094A2E3D67B60E71501 /* TABComponentLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABComponentLayer.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TABComponentLayer.m; sourceTree = "<group>"; };
+		90211210300880976F64338EE5A7FD16 /* TABRevealHomeWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABRevealHomeWindow.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/FlowBall/TABRevealHomeWindow.h; sourceTree = "<group>"; };
+		932FECE101BCA73C82557A9BA3258594 /* TABRevealKeepDataUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABRevealKeepDataUtil.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Util/TABRevealKeepDataUtil.m; sourceTree = "<group>"; };
+		93D07B20006F9498B92DFA985A304EF8 /* Pods-testDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testDemo-dummy.m"; sourceTree = "<group>"; };
+		950602DDD64FAA80716D0BBF17D6510D /* TABViewAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABViewAnimated.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Model/TABViewAnimated.m; sourceTree = "<group>"; };
+		95903B12C1942D23E581E363DAF4331F /* TABAnimatedBall.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABAnimatedBall.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/FlowBall/TABAnimatedBall.m; sourceTree = "<group>"; };
+		961E0F929768394B360FF72981CADAF6 /* TABManagerMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABManagerMethod.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TABManagerMethod.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FA5C94C8838BC71F954EC23DAE8FAE5 /* TABComponentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABComponentManager.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TABComponentManager.h; sourceTree = "<group>"; };
+		A032607D98E9CA70AFC6D21ACF73C8E4 /* Pods-testDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0EA4B466696CE9EC0515B370C60559D /* NSArray+TABAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+TABAnimated.h"; path = "AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/NSArray+TABAnimated.h"; sourceTree = "<group>"; };
+		A4C6BBFE9FD59264487DA38275013B9A /* TABAnimated-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TABAnimated-dummy.m"; sourceTree = "<group>"; };
+		A9FE340738FC95854348BF38F015B284 /* TABRevealAddChainView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABRevealAddChainView.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/View/TABRevealAddChainView.m; sourceTree = "<group>"; };
+		AE1F5012FE80D65A78B727326B66F102 /* TABCollectionAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABCollectionAnimated.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Model/TABCollectionAnimated.m; sourceTree = "<group>"; };
+		AEBC67357DC1BB1C402C3E676761D360 /* TABManagerMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABManagerMethod.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TABManagerMethod.h; sourceTree = "<group>"; };
+		AF99FE2049EE06378AD285B9621777F2 /* Pods-testDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2E070D362C7BD8839B9F10576708B1 /* TableDeDaSelfModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TableDeDaSelfModel.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TableDeDaSelfModel.m; sourceTree = "<group>"; };
+		BD141B3F837D2085F4F37C088C30DF9A /* TABAnimatedCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABAnimatedCacheManager.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Cache/TABAnimatedCacheManager.h; sourceTree = "<group>"; };
+		BD5C855863694A51326F90743456CB9F /* TabAnimatedLogo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = TabAnimatedLogo.png; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Source/TabAnimatedLogo.png; sourceTree = "<group>"; };
+		BF112AF0ACEA336FE3DE34BCE37512AD /* TABAnimatedDocumentMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABAnimatedDocumentMethod.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Cache/TABAnimatedDocumentMethod.m; sourceTree = "<group>"; };
+		BF5098C836406DD80B96156996A5B4E1 /* TABPopViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABPopViewController.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/AlertView/TABPopViewController.m; sourceTree = "<group>"; };
+		C158EBA7DA907116069712C46758734C /* TABComponentLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABComponentLayer.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TABComponentLayer.h; sourceTree = "<group>"; };
+		C43ADFEC6593F9D5A1AC9BEEB3DC0F9C /* tab_reveal_close_bigger.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = tab_reveal_close_bigger.png; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Source/tab_reveal_close_bigger.png; sourceTree = "<group>"; };
+		C44A8035E977D38C255440DD1499B94D /* TableDeDaSelfModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TableDeDaSelfModel.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TableDeDaSelfModel.h; sourceTree = "<group>"; };
+		C4C7086AFDA9CFE2C16A9D7A78A8540C /* TABAnimated.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TABAnimated.xcconfig; sourceTree = "<group>"; };
+		C5E8D455BF84FCBD24F0901EBD9E53D7 /* NSArray+TABAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+TABAnimated.m"; path = "AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/NSArray+TABAnimated.m"; sourceTree = "<group>"; };
+		CC6465E34E418C7DE70C6D243C10F029 /* Pods_testDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testDemo.framework; path = "Pods-testDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBAF97BEB94E43A056A703437A78142 /* UIView+TABAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TABAnimated.m"; path = "AnimatedDemo/AnimatedDemo/TABAnimated/Core/Category/UIView+TABAnimated.m"; sourceTree = "<group>"; };
+		D1F6AFA677A85C235001F62A58168A3A /* Pods-testDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DB823DCF9E049268F3B5AC2B553BECE2 /* TABSentryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABSentryView.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Manager/TABSentryView.h; sourceTree = "<group>"; };
+		DDD6B164A49AE7064B2D03F4ABD0A1C6 /* TABTableAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABTableAnimated.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Model/TABTableAnimated.m; sourceTree = "<group>"; };
+		DE3E2039CA248C3C1FF20BF8AA811483 /* TABRevealModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABRevealModel.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Model/TABRevealModel.h; sourceTree = "<group>"; };
+		DF8F0E787447A8742600E12B1749BDF0 /* TABAnimatedBall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABAnimatedBall.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/FlowBall/TABAnimatedBall.h; sourceTree = "<group>"; };
+		E47B723DA66D2D91A9821802ED0CEED1 /* TABRevealTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABRevealTableViewCell.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/View/TABRevealTableViewCell.h; sourceTree = "<group>"; };
+		E5B64DBACBEEC25603821EED75372ACC /* TABRevealModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABRevealModel.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Model/TABRevealModel.m; sourceTree = "<group>"; };
+		E8ADDC9185D7A4DC6D2092F918C1ED14 /* TABRevealKeepDataUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABRevealKeepDataUtil.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Util/TABRevealKeepDataUtil.h; sourceTree = "<group>"; };
+		E95B489E9E9C0DBCDBB513C717C41C8F /* TABButtonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABButtonProtocol.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Protocol/TABButtonProtocol.h; sourceTree = "<group>"; };
+		EA5688C9665886ED5FD3CEE818AAFC61 /* TABTableAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABTableAnimated.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Model/TABTableAnimated.h; sourceTree = "<group>"; };
+		EBF601C0CBDE0F68373792F4A76BE7E5 /* TABRevealViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABRevealViewController.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Controller/TABRevealViewController.h; sourceTree = "<group>"; };
+		F26DC2298166B6594F94CCFD90FECB7F /* TABAnimationMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TABAnimationMethod.m; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Animation/TABAnimationMethod.m; sourceTree = "<group>"; };
+		F30427551B93F1D639659704E2E60F1C /* TABViewAnimated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABViewAnimated.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Model/TABViewAnimated.h; sourceTree = "<group>"; };
+		F5C3FD09151DAC9E894AB7F717887854 /* TABAnimatedCacheModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABAnimatedCacheModel.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Cache/TABAnimatedCacheModel.h; sourceTree = "<group>"; };
+		F873BFAB6B29B05F81AC400412A5B97E /* TABPreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABPreviewViewController.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Controller/TABPreviewViewController.h; sourceTree = "<group>"; };
+		FBBFCB4FE333DF13E82DF068C1418375 /* TABAnimatedDocumentMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TABAnimatedDocumentMethod.h; path = AnimatedDemo/AnimatedDemo/TABAnimated/Core/Cache/TABAnimatedDocumentMethod.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A051257C3E15CF633164C224D37F21BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B0B324271EBA1CEA58CE34B4167FC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F7365AAF92B492DB7CD9EB386A7C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5DF29821DD706E084981EA603B24A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042D35B433A45EC3CAEA8667F2D7194E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				453C061B0703C7F97E42A4AA63825DD9 /* tab_reveal_close.png */,
+				C43ADFEC6593F9D5A1AC9BEEB3DC0F9C /* tab_reveal_close_bigger.png */,
+				BD5C855863694A51326F90743456CB9F /* TabAnimatedLogo.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		051D0701A3C295A9323A1DD5A1FEBB12 /* Pods-testDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6B6B708DEA23FFAF5DC6963D1CEDA700 /* Pods-testDemo.modulemap */,
+				A032607D98E9CA70AFC6D21ACF73C8E4 /* Pods-testDemo-acknowledgements.markdown */,
+				721EB5F64055CB20D72B553E1162DDD7 /* Pods-testDemo-acknowledgements.plist */,
+				93D07B20006F9498B92DFA985A304EF8 /* Pods-testDemo-dummy.m */,
+				239F962A5A5AB0C5C9481546762E0C75 /* Pods-testDemo-frameworks.sh */,
+				473D3F5B9D251C2D3EFF788F3E83EEED /* Pods-testDemo-Info.plist */,
+				2F75861861B0042DD46BA0606D83D7DF /* Pods-testDemo-umbrella.h */,
+				AF99FE2049EE06378AD285B9621777F2 /* Pods-testDemo.debug.xcconfig */,
+				D1F6AFA677A85C235001F62A58168A3A /* Pods-testDemo.release.xcconfig */,
+			);
+			name = "Pods-testDemo";
+			path = "Target Support Files/Pods-testDemo";
+			sourceTree = "<group>";
+		};
+		088B24FC30060ECBF5F8B2667FF4EEE0 /* TABAnimated */ = {
+			isa = PBXGroup;
+			children = (
+				3D1559C44E9BD99910A00E53F1EEBD5C /* Core */,
+				C056404DECD7A79F1FC8D2DDFD542EC8 /* Reveal */,
+				50DDE701B565898DE8E416E589E24136 /* Support Files */,
+			);
+			name = TABAnimated;
+			path = TABAnimated;
+			sourceTree = "<group>";
+		};
+		1512930199873882607F69C62EC14938 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				051D0701A3C295A9323A1DD5A1FEBB12 /* Pods-testDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3D1559C44E9BD99910A00E53F1EEBD5C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A0EA4B466696CE9EC0515B370C60559D /* NSArray+TABAnimated.h */,
+				C5E8D455BF84FCBD24F0901EBD9E53D7 /* NSArray+TABAnimated.m */,
+				6F04116437871E7401102B3715052F6C /* TABAnimated.h */,
+				7A8D8DB9D1C321B05ED71CF374FF5314 /* TABAnimated.m */,
+				BD141B3F837D2085F4F37C088C30DF9A /* TABAnimatedCacheManager.h */,
+				69DBA92CE2351B2563AB8E14D890DD8A /* TABAnimatedCacheManager.m */,
+				F5C3FD09151DAC9E894AB7F717887854 /* TABAnimatedCacheModel.h */,
+				1317BF685B2DD00DD3DD6B93FFE485AB /* TABAnimatedCacheModel.m */,
+				FBBFCB4FE333DF13E82DF068C1418375 /* TABAnimatedDocumentMethod.h */,
+				BF112AF0ACEA336FE3DE34BCE37512AD /* TABAnimatedDocumentMethod.m */,
+				4F0DBA8D3E578CC9DB8F1F01C754C332 /* TABAnimationMethod.h */,
+				F26DC2298166B6594F94CCFD90FECB7F /* TABAnimationMethod.m */,
+				3DF5A9CA49D53AE4F925E8FC87C75F15 /* TABBaseComponent.h */,
+				6DCDD85B32C642442C05572778807FA2 /* TABBaseComponent.m */,
+				1929FCC2EA47138CD8CADD9E8EF73987 /* TABCollectionAnimated.h */,
+				AE1F5012FE80D65A78B727326B66F102 /* TABCollectionAnimated.m */,
+				C158EBA7DA907116069712C46758734C /* TABComponentLayer.h */,
+				8A8FE4AF60FE8094A2E3D67B60E71501 /* TABComponentLayer.m */,
+				9FA5C94C8838BC71F954EC23DAE8FAE5 /* TABComponentManager.h */,
+				1E94D9B48890AC26DCFCEBEC378DEF41 /* TABComponentManager.m */,
+				C44A8035E977D38C255440DD1499B94D /* TableDeDaSelfModel.h */,
+				BA2E070D362C7BD8839B9F10576708B1 /* TableDeDaSelfModel.m */,
+				AEBC67357DC1BB1C402C3E676761D360 /* TABManagerMethod.h */,
+				961E0F929768394B360FF72981CADAF6 /* TABManagerMethod.m */,
+				DB823DCF9E049268F3B5AC2B553BECE2 /* TABSentryView.h */,
+				473FFA45F415ACABA3FB4B96BFCE7CF7 /* TABSentryView.m */,
+				EA5688C9665886ED5FD3CEE818AAFC61 /* TABTableAnimated.h */,
+				DDD6B164A49AE7064B2D03F4ABD0A1C6 /* TABTableAnimated.m */,
+				F30427551B93F1D639659704E2E60F1C /* TABViewAnimated.h */,
+				950602DDD64FAA80716D0BBF17D6510D /* TABViewAnimated.m */,
+				8784E868A9BBD6B6AA80A888858F9203 /* UIView+TABAnimated.h */,
+				CEBAF97BEB94E43A056A703437A78142 /* UIView+TABAnimated.m */,
+				7EE0A2ACCDC335F521AB657FDC066DC4 /* UIView+TABControlAnimation.h */,
+				54A5366FD8665FD12F0A085FE204B75B /* UIView+TABControlAnimation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		50DDE701B565898DE8E416E589E24136 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB89465E76DF0F90015BFD96E958D19 /* TABAnimated.modulemap */,
+				C4C7086AFDA9CFE2C16A9D7A78A8540C /* TABAnimated.xcconfig */,
+				A4C6BBFE9FD59264487DA38275013B9A /* TABAnimated-dummy.m */,
+				7AA47D9BDD7740BFFE7ED7BAD0306BDA /* TABAnimated-Info.plist */,
+				216740B04148C2CF92C49DA964971020 /* TABAnimated-prefix.pch */,
+				4F336670836537E736C6DBA851D81E41 /* TABAnimated-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TABAnimated";
+			sourceTree = "<group>";
+		};
+		913502FF72381F5085B9357466E568AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6465E34E418C7DE70C6D243C10F029 /* Pods_testDemo.framework */,
+				1D5D66B1D7573083A392FD0B354846A2 /* TABAnimated.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C056404DECD7A79F1FC8D2DDFD542EC8 /* Reveal */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F0E787447A8742600E12B1749BDF0 /* TABAnimatedBall.h */,
+				95903B12C1942D23E581E363DAF4331F /* TABAnimatedBall.m */,
+				E95B489E9E9C0DBCDBB513C717C41C8F /* TABButtonProtocol.h */,
+				89D0205B2FDE35FC923AC8F703170383 /* TABPopBgView.h */,
+				05C662427AA5DC3A4E1098BCE39ADC0A /* TABPopBgView.m */,
+				4BC1293CDD14E0F4F1130A7B5158BE20 /* TABPopViewController.h */,
+				BF5098C836406DD80B96156996A5B4E1 /* TABPopViewController.m */,
+				F873BFAB6B29B05F81AC400412A5B97E /* TABPreviewViewController.h */,
+				792DADDC4EF5156F788EBE1392BCCB65 /* TABPreviewViewController.m */,
+				29687D4D97C7C8CFC0F7CF4269BCE9B7 /* TABRevealAddChainView.h */,
+				A9FE340738FC95854348BF38F015B284 /* TABRevealAddChainView.m */,
+				02BD5716CE844449B10AF1711EAE38A0 /* TABRevealChainManager.h */,
+				48F87200E3B674E3150212F2D1BDB401 /* TABRevealChainManager.m */,
+				65F8A18A13E86CC9050A867A6E688920 /* TABRevealChainModel.h */,
+				5D372553D6365295C2A88A90C1D5EA2A /* TABRevealChainModel.m */,
+				703952FBF27DE666DF5DFB819EBFCF53 /* TABRevealFlowBall.h */,
+				67B61992649B34D21570FEEC437BDFA8 /* TABRevealFlowBall.m */,
+				90211210300880976F64338EE5A7FD16 /* TABRevealHomeWindow.h */,
+				1780A2B9197F674BB92B2CA2588787EA /* TABRevealHomeWindow.m */,
+				E8ADDC9185D7A4DC6D2092F918C1ED14 /* TABRevealKeepDataUtil.h */,
+				932FECE101BCA73C82557A9BA3258594 /* TABRevealKeepDataUtil.m */,
+				DE3E2039CA248C3C1FF20BF8AA811483 /* TABRevealModel.h */,
+				E5B64DBACBEEC25603821EED75372ACC /* TABRevealModel.m */,
+				E47B723DA66D2D91A9821802ED0CEED1 /* TABRevealTableViewCell.h */,
+				2649FFB161CAAE53969AD5C0CE1B0736 /* TABRevealTableViewCell.m */,
+				EBF601C0CBDE0F68373792F4A76BE7E5 /* TABRevealViewController.h */,
+				417214F13AF9F03736667D6190DF1018 /* TABRevealViewController.m */,
+				042D35B433A45EC3CAEA8667F2D7194E /* Resources */,
+			);
+			name = Reveal;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ECDB45BEB894A80BAC08C56B6ADCC485 /* Pods */,
+				913502FF72381F5085B9357466E568AC /* Products */,
+				1512930199873882607F69C62EC14938 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECDB45BEB894A80BAC08C56B6ADCC485 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				088B24FC30060ECBF5F8B2667FF4EEE0 /* TABAnimated */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CD18894F50352CA7A59F68CAAE13CA8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D3947F8CA68A3D55B72B5DFF9768E3 /* Pods-testDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4075B968F0D136B4D3A54D02EBA11F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865335C4201BFBD0A880D23AC795F8CB /* NSArray+TABAnimated.h in Headers */,
+				5EB877634ABF4C927012271FDEDE3EAC /* TABAnimated-umbrella.h in Headers */,
+				EB5B8E4401F483B49E04B4320DCEFF65 /* TABAnimated.h in Headers */,
+				FF7F858875504FD8C91CC4C530E9CB1B /* TABAnimatedBall.h in Headers */,
+				223004CD0D7DB5B3F456BAB763F8AC6E /* TABAnimatedCacheManager.h in Headers */,
+				D2EA84B8B188862E91A2397467275629 /* TABAnimatedCacheModel.h in Headers */,
+				26822FA1A39DA48324B1802A4F04DDBC /* TABAnimatedDocumentMethod.h in Headers */,
+				5017739F252B37B3EE0D1F088AD930B7 /* TABAnimationMethod.h in Headers */,
+				7252B00896649DEBBC2E8DAEFA58AB1C /* TABBaseComponent.h in Headers */,
+				9C08506F541B87744F00A568770B1185 /* TABButtonProtocol.h in Headers */,
+				1981A4DE6B045939CB4D8328C538319C /* TABCollectionAnimated.h in Headers */,
+				77778C0A9731D6F27DB43354449ADC90 /* TABComponentLayer.h in Headers */,
+				9A21198DFED15401B30EB8C5B0A50014 /* TABComponentManager.h in Headers */,
+				7C832A018AAE143AB59220164F960981 /* TableDeDaSelfModel.h in Headers */,
+				FC7535A641D0EDBB557FBACF5B4772F6 /* TABManagerMethod.h in Headers */,
+				715ECDA8017924648280E0BACA16E1B0 /* TABPopBgView.h in Headers */,
+				B6F9BB0C50DE92FB59BA05C618200A59 /* TABPopViewController.h in Headers */,
+				074FD12DC3DB15AD84B8FCE5BFC3C981 /* TABPreviewViewController.h in Headers */,
+				812FFA22A3ED0E9B3D6ED2C3064E82BA /* TABRevealAddChainView.h in Headers */,
+				304655A6355ECE689936B9C12BCFD235 /* TABRevealChainManager.h in Headers */,
+				F4C80324E120CBAC981B5EB0CC0D6CCF /* TABRevealChainModel.h in Headers */,
+				EFD7C21DABEA1A1AD2BB0B1C8086C547 /* TABRevealFlowBall.h in Headers */,
+				2FAF72080DB13A35E749D978C3119A0A /* TABRevealHomeWindow.h in Headers */,
+				82AB5A4F53DD7E2FC36F0EABF53EEB09 /* TABRevealKeepDataUtil.h in Headers */,
+				FCF8FE7E41038694F3C21C06433A8199 /* TABRevealModel.h in Headers */,
+				7423FE986029F483FFE6794A63281824 /* TABRevealTableViewCell.h in Headers */,
+				81C587A778BA5131E03551ABFCFEEF01 /* TABRevealViewController.h in Headers */,
+				85C33B6B1400F76DA2C25926A9F31DB9 /* TABSentryView.h in Headers */,
+				2C556167328C5E3F340437B751A5D458 /* TABTableAnimated.h in Headers */,
+				5B56AD0C85587BC2323E063562DE5719 /* TABViewAnimated.h in Headers */,
+				541162A27FEEB3FA9D6925223CA9A61F /* UIView+TABAnimated.h in Headers */,
+				FAF9E03E907C8B82CD071E6B00BACD82 /* UIView+TABControlAnimation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F2C0F0B725845D9A78C6B8BA3DAD493 /* Pods-testDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD48E2DC87C7A334A11B6E64FDB1AB9 /* Build configuration list for PBXNativeTarget "Pods-testDemo" */;
+			buildPhases = (
+				CD18894F50352CA7A59F68CAAE13CA8C /* Headers */,
+				D47E7F277F14D0C900F8B44F2836AB54 /* Sources */,
+				F6F7365AAF92B492DB7CD9EB386A7C16 /* Frameworks */,
+				FAFF0205523871B2A2B40E724BDC94B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				781E29ABEFF4116F48D5160AC1C592C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-testDemo";
+			productName = "Pods-testDemo";
+			productReference = CC6465E34E418C7DE70C6D243C10F029 /* Pods_testDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B226767C94EFDDF6183068991A028098 /* TABAnimated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E990FB86938534B72C38CA315BA3E21D /* Build configuration list for PBXNativeTarget "TABAnimated" */;
+			buildPhases = (
+				E4075B968F0D136B4D3A54D02EBA11F7 /* Headers */,
+				CD9B58444FEEFD57EDE4302205892872 /* Sources */,
+				A051257C3E15CF633164C224D37F21BD /* Frameworks */,
+				B50B39AE40A8C2C6159C41A9A592974B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TABAnimated;
+			productName = TABAnimated;
+			productReference = 1D5D66B1D7573083A392FD0B354846A2 /* TABAnimated.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 913502FF72381F5085B9357466E568AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F2C0F0B725845D9A78C6B8BA3DAD493 /* Pods-testDemo */,
+				B226767C94EFDDF6183068991A028098 /* TABAnimated */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50B39AE40A8C2C6159C41A9A592974B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE080BA8B19FA55A12A72F42DB65508 /* tab_reveal_close.png in Resources */,
+				93A8BF4F467E377C31F956D5431115B0 /* tab_reveal_close_bigger.png in Resources */,
+				4DA02D66E204ED3E8072EDF276047284 /* TabAnimatedLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF0205523871B2A2B40E724BDC94B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9B58444FEEFD57EDE4302205892872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B2F033975C97879776558590B11AD2 /* NSArray+TABAnimated.m in Sources */,
+				741D4EA9D3B9D5B386D5AF49AD58F636 /* TABAnimated-dummy.m in Sources */,
+				1449705931C6B9A9F165D81A8A0F0F10 /* TABAnimated.m in Sources */,
+				70F39804691B47AD717B8FBA24E9A780 /* TABAnimatedBall.m in Sources */,
+				0E02D9E9142733E89AF5324F8869FE7E /* TABAnimatedCacheManager.m in Sources */,
+				F9EB9CC5620D451FA05B7E8B2BA57BD9 /* TABAnimatedCacheModel.m in Sources */,
+				4FCD94B91A23E34B8325587AD3E912EF /* TABAnimatedDocumentMethod.m in Sources */,
+				6978C708A2C059744FBD9BDE74A73AFB /* TABAnimationMethod.m in Sources */,
+				B391BC90774B5E930E5522E05D6CB9A5 /* TABBaseComponent.m in Sources */,
+				8AF6216BFDEB6F6A1F902569A70A6ED6 /* TABCollectionAnimated.m in Sources */,
+				05632D897CD192403744902E3876151C /* TABComponentLayer.m in Sources */,
+				EDC3686960D26FCFB33A9A1B306394AC /* TABComponentManager.m in Sources */,
+				20FAB218AD2D2FE087F42E7AD8D235FF /* TableDeDaSelfModel.m in Sources */,
+				0E82BCDF14819421D4867D6F0FFBD3D1 /* TABManagerMethod.m in Sources */,
+				8FB8BB8398E57F25FFD9E0D5921E84E4 /* TABPopBgView.m in Sources */,
+				B4A6396AE8010962774B40FF9DF1E595 /* TABPopViewController.m in Sources */,
+				F4046E07C71B28C38894DF799C51433A /* TABPreviewViewController.m in Sources */,
+				88ED44B9C11BCA79C4AA8C9772A12971 /* TABRevealAddChainView.m in Sources */,
+				5C78F066D9A99D024521708BED22CB5E /* TABRevealChainManager.m in Sources */,
+				C3B28538F4F599D6E338269E5EBB7F62 /* TABRevealChainModel.m in Sources */,
+				87AB98F3DF8FA6C39E620C11AC9E1521 /* TABRevealFlowBall.m in Sources */,
+				526282B7F7A13E1439A4077DB69AA49F /* TABRevealHomeWindow.m in Sources */,
+				190D6D9E8B0356EF07F676450F0847DA /* TABRevealKeepDataUtil.m in Sources */,
+				7A87527786AC5FBE37F183564FA3C980 /* TABRevealModel.m in Sources */,
+				71E8A57D96C808994AC6919206783596 /* TABRevealTableViewCell.m in Sources */,
+				7E102FC6D756FB6AE5C35535D773D922 /* TABRevealViewController.m in Sources */,
+				04C9F6019E2EC11E2974C12D138AD4BF /* TABSentryView.m in Sources */,
+				E0839620D0E7642FB3B9EA28190B8BAA /* TABTableAnimated.m in Sources */,
+				687F5F2349C57B56F1CDE75E3C24771F /* TABViewAnimated.m in Sources */,
+				9D7A39901ED60A5716EA480EA50CCF1E /* UIView+TABAnimated.m in Sources */,
+				01F057A58545963314B01A4FED0A008F /* UIView+TABControlAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47E7F277F14D0C900F8B44F2836AB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3872D41D542938E7471A93D89709F2 /* Pods-testDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		781E29ABEFF4116F48D5160AC1C592C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TABAnimated;
+			target = B226767C94EFDDF6183068991A028098 /* TABAnimated */;
+			targetProxy = 1C1CD8BC38A45800AF2F1BDA7544B973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F2D279A003D4D50840DF95FAA975F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F6AFA677A85C235001F62A58168A3A /* Pods-testDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-testDemo/Pods-testDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-testDemo/Pods-testDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33575BBAD65D190A62678F5FE449D252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C7086AFDA9CFE2C16A9D7A78A8540C /* TABAnimated.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TABAnimated/TABAnimated-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TABAnimated/TABAnimated-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TABAnimated/TABAnimated.modulemap";
+				PRODUCT_MODULE_NAME = TABAnimated;
+				PRODUCT_NAME = TABAnimated;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B83D65E1423CE63076C4251A03E2A08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF99FE2049EE06378AD285B9621777F2 /* Pods-testDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-testDemo/Pods-testDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-testDemo/Pods-testDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F520D9DB171D36C2B7F4A76F3BD3E653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C7086AFDA9CFE2C16A9D7A78A8540C /* TABAnimated.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TABAnimated/TABAnimated-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TABAnimated/TABAnimated-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TABAnimated/TABAnimated.modulemap";
+				PRODUCT_MODULE_NAME = TABAnimated;
+				PRODUCT_NAME = TABAnimated;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD48E2DC87C7A334A11B6E64FDB1AB9 /* Build configuration list for PBXNativeTarget "Pods-testDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83D65E1423CE63076C4251A03E2A08F /* Debug */,
+				2F2D279A003D4D50840DF95FAA975F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E990FB86938534B72C38CA315BA3E21D /* Build configuration list for PBXNativeTarget "TABAnimated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F520D9DB171D36C2B7F4A76F3BD3E653 /* Debug */,
+				33575BBAD65D190A62678F5FE449D252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
